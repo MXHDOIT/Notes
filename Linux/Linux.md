@@ -16,6 +16,10 @@
 
 <a href="#N_8">组管理和权限管理</a>
 
+<a href="#N_9">RPM</a>
+
+<a href="#N_10">YUM</a>
+
 ##### <a name="N_1">1. Linux介绍</a>
 
 * Linux是一款操作系统，免费，开源，安全，高效，稳定，处理高并发非常强悍，现在很多企业级的项目都部署到Linux/unix服务器运行
@@ -35,7 +39,7 @@
 
 <hr>
 
-##### 3.Linux目录结构<a name="N_3"></a>
+##### <a name="N_3">3.Linux目录结构</a>
 
 * linux的文件系统是采用级层式的树状目录结构，在此结构上最上层是根目录“/”
 
@@ -96,11 +100,11 @@
 <hr>
 
 
-##### 4.vi和vim编辑器<a name="N_4"></a>
+##### <a name="N_4">4.vi和vim编辑器</a>
 
 * 三种常见模式：
 
-  ![image-20200311132005959](C:\Users\apple\AppData\Roaming\Typora\typora-user-images\image-20200311132005959.png)
+  ![image-20200311132005959](https://raw.githubusercontent.com/MXHDOIT/picBed/master/img/image-20200311132005959.png)
 
   * 正常模式：在正常模式下，我们可以使用快捷键，以vim打开一个文档就直接进入一般模式了。在这个模式中，你可以使用【上下左右】按键来移动光标，你可以使用【删除字符】或【删除整行】来处理档案内容，也可以使用【复制，粘贴】来处理你的文件数据。
   * 插入模式/编辑模式：在模式下，可以输入内容。按下i,I,o,O,a,A,r,R等任何一个字母之后才会进入编辑模式，一般按i
@@ -122,7 +126,7 @@
 
 <hr>
 
-##### 5.开机，重启和用户登录注销<a name="N_5"></a>
+##### <a name="N_5">5.开机，重启和用户登录注销</a>
 
 * shutdown：
   * shutdown -h now:表示立即关机
@@ -428,7 +432,7 @@
 
   - 文件基本介绍：
 
-    ![image-20200312210013000](C:\Users\apple\AppData\Roaming\Typora\typora-user-images\image-20200312210013000.png)
+    ![image-20200312210013000](https://raw.githubusercontent.com/MXHDOIT/picBed/master/img/image-20200312210013000.png)
 
     * 
 
@@ -461,7 +465,7 @@
     - chgrp newgroup file：改变文件的所有组
     - -R：如果是目录，则使其下所有子文件或目录递归生效
 
-  ##### 9.RPM
+  ##### <a name="N_9">9.RPM</a>
   * RPM：RedHat Package Manager，红帽软件包管理工具。
   * RPM查询已安装的rpm列表：rpm -qa | grep xx
   * rpm包的其它查询指令：
@@ -479,7 +483,7 @@
     * v=verbose：提示
     * h=hash：进度条
 
-  ##### 10.YUM
+  ##### <a name="N_10">10.YUM</a>
   * YUM：是一个shell前端软件包管理器。基于RPM包管理，能够从指定的服务器自动下载RPM包并安装，可以自动处理依赖性关系，并且一次安装所有依赖的软件包。使用yum的前提是联网。
   * yum list | grep xx：查询yum服务器是否有需要安装的软件
   * yum install xx：安装指定的yum包
