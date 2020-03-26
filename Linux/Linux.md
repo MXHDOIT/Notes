@@ -41,7 +41,7 @@
 
 * 在Linux世界里，一切皆文件
 
-  ![image-20200310232559711](C:\Users\apple\AppData\Roaming\Typora\typora-user-images\image-20200310232559711.png)
+  https://raw.githubusercontent.com/MXHDOIT/picBed/master/img/image-20200310232559711.png
 
 * 具体的目录结构
 
