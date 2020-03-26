@@ -41,7 +41,7 @@
 
 * 在Linux世界里，一切皆文件
 
-  https://raw.githubusercontent.com/MXHDOIT/picBed/master/img/image-20200310232559711.png
+  <img src="https://raw.githubusercontent.com/MXHDOIT/picBed/master/img/image-20200310232559711.png">
 
 * 具体的目录结构
 
