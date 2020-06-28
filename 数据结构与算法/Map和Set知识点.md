@@ -24,7 +24,7 @@
 
 4. Map中的方法：
 
-   ![image-20200414223043313](https://raw.githubusercontent.com/MXHDOIT/picBed/master/img/image-20200414223043313.png)
+   ![image-20200628223718825](C:\Users\apple\AppData\Roaming\Typora\typora-user-images\image-20200628223718825.png)
 
 5. Map的使用
 
@@ -70,10 +70,7 @@
 
 4. Set的方法：
 
-   ![image-20200415101105209](https://raw.githubusercontent.com/MXHDOIT/picBed/master/img/image-20200415101105209.png)
-
-   
-
+   ![image-20200628223743770](C:\Users\apple\AppData\Roaming\Typora\typora-user-images\image-20200628223743770.png)
 
 
 ### TreeMap的底层的数据结构：
